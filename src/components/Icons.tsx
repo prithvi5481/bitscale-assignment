@@ -248,7 +248,6 @@ export const CloudIcon = () => (
         <path d="M11.3333 10L7.66667 13.6667L6 12" stroke="#6B7280" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
         <path d="M3.33335 11.8286C2.72195 11.4026 2.22145 10.8364 1.87372 10.1773C1.52599 9.51826 1.34115 8.78551 1.33465 8.04036C1.32815 7.29522 1.50019 6.55935 1.83638 5.89432C2.17256 5.22929 2.66311 4.65444 3.26699 4.21785C3.87088 3.78126 4.57053 3.49563 5.30743 3.38486C6.04432 3.27409 6.79703 3.34139 7.50258 3.58114C8.20813 3.82089 8.84601 4.22611 9.36286 4.76291C9.8797 5.29971 10.2605 5.95248 10.4734 6.6666H11.6667C12.3742 6.66689 13.0588 6.91719 13.5996 7.3733C14.1404 7.82941 14.5026 8.46198 14.6223 9.15926C14.7419 9.85655 14.6113 10.5737 14.2534 11.184C13.8956 11.7943 13.3336 12.2585 12.6667 12.4946" stroke="#6B7280" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
-
 )
 
 export const CoinsIcon = () => (
@@ -270,5 +269,15 @@ export const PauseIcon = () => (
     <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2.91667 2L11.0833 8L2.91667 14V2Z" fill="#D1D5DB" stroke="#D1D5DB" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
+)
 
+export const SearchIcon = () => (
+    <svg
+        className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+    >
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+    </svg>
 )
